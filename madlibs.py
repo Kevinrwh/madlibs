@@ -1,12 +1,14 @@
 # Program displays madlib given strings in different string concatenation formats
 
-name = "kevin"
+# Variables containing madlib
+adj = input("Adjective: ")
+verb1 =  input("Verb: ")
+verb2 = input("Verb: ")
+famous_person = input("Famous person: ")
 
-# Typical 
-print("Hello there " + name)
+# Our madlib
+madlib = f"Computer programming is so {adj}! It makes me so excited all the time because \
+I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
 
-# Using .format method
-print("Hello there {}".format(name))
-
-# Using f strings
-print(f"Hello there {name}")
+# Display madlib
+print(madlib)
